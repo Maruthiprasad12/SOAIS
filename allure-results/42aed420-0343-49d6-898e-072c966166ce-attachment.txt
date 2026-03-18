@@ -1,0 +1,2 @@
+✅ Standard user logged in successfully
+❌ Locked user login failed as expected

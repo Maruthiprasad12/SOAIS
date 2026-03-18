@@ -1,0 +1,311 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "GoTranscript Logo" [ref=e7] [cursor=pointer]:
+        - /url: https://gotranscript.com
+        - img "GoTranscript Logo" [ref=e8]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - button "Services" [ref=e14] [cursor=pointer]: Services
+        - listitem [ref=e17]:
+          - button "Pricing" [ref=e18] [cursor=pointer]: Pricing
+        - listitem [ref=e21]:
+          - button "For business" [ref=e22] [cursor=pointer]: For business
+        - listitem [ref=e25]:
+          - button "Company" [ref=e26] [cursor=pointer]: Company
+        - listitem [ref=e29]:
+          - button "Contact" [ref=e30] [cursor=pointer]: Contact
+      - generic [ref=e33]:
+        - link "Log In" [ref=e35] [cursor=pointer]:
+          - /url: https://gotranscript.com/login
+        - link "Try Free Pilot" [ref=e36] [cursor=pointer]:
+          - /url: https://gotranscript.com/free-pilot
+        - button "Place order" [ref=e38] [cursor=pointer]: Place order
+  - generic [ref=e41]:
+    - heading "Free online text compare tool" [level=1] [ref=e48]
+    - generic [ref=e51]:
+      - generic [ref=e54]:
+        - paragraph [ref=e55]: Order Now
+        - generic [ref=e56]:
+          - link "Transcriptions Transcriptions Human-made audio-to-text in 140 languages arrow" [ref=e57] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcription-services
+            - generic [ref=e58]:
+              - img "Transcriptions" [ref=e59]
+              - generic [ref=e60]:
+                - generic [ref=e61]: Transcriptions
+                - generic [ref=e62]: Human-made audio-to-text in 140 languages
+            - img "arrow" [ref=e63]
+          - separator [ref=e64]
+          - link "Captions Captions Human-made broadcast-ready captions arrow" [ref=e65] [cursor=pointer]:
+            - /url: https://gotranscript.com/closed-captioning-services
+            - generic [ref=e66]:
+              - img "Captions" [ref=e67]
+              - generic [ref=e68]:
+                - generic [ref=e69]: Captions
+                - generic [ref=e70]: Human-made broadcast-ready captions
+            - img "arrow" [ref=e71]
+        - link "Instant Quote" [ref=e73] [cursor=pointer]:
+          - /url: https://gotranscript.com/pricing-and-cost-estimate
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Top pick
+            - 'link "pc editors` choice logo tech radar logo" [ref=e77] [cursor=pointer]':
+              - /url: https://www.nytimes.com/wirecutter/reviews/best-transcription-services/
+              - 'img "pc editors` choice logo" [ref=e78]'
+              - img "tech radar logo" [ref=e79]
+          - img "gotranscript logo" [ref=e81]
+        - img "lines decor"
+      - generic [ref=e82]:
+        - generic [ref=e83]: This text comparison tool helps you to compare text between two text documents. It marks down text differences and returns a percentage of text similarity. A 100% percent means that the text is identical. To check text differences, enter the text and click the Compare button.
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - textbox "Paste one version of the text here." [ref=e88]
+            - textbox "Paste another version of the text here." [ref=e90]
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - checkbox "Don't consider capitalization and punctuation as mistakes." [ref=e95]
+              - generic [ref=e96]: Don't consider capitalization and punctuation as mistakes.
+            - generic [ref=e97]:
+              - iframe [ref=e100]:
+                - generic [ref=f1e2]:
+                  - generic [ref=f1e3]:
+                    - generic [ref=f1e4]:
+                      - text: protected by
+                      - strong [ref=f1e5]: reCAPTCHA
+                    - generic [ref=f1e6]: "-"
+                  - generic [ref=f1e9]:
+                    - link "Privacy" [ref=f1e10] [cursor=pointer]:
+                      - /url: https://www.google.com/intl/en/policies/privacy/
+                    - text: "-"
+                    - link "Terms" [ref=f1e11] [cursor=pointer]:
+                      - /url: https://www.google.com/intl/en/policies/terms/
+              - button "Compare" [ref=e101] [cursor=pointer]
+  - generic [ref=e103]:
+    - generic [ref=e106]:
+      - img "transcriptions tool image" [ref=e109]
+      - generic [ref=e111]:
+        - paragraph [ref=e112]: Cheapest Way to boost seo
+        - heading "Unlock Thousands of Keywords Instantly" [level=2] [ref=e113]
+        - paragraph [ref=e114]: With GT Player. your video content can be transcribed using AI and shared on your website with just a few clicks-no development needed. Simply generate a shareable link and instantly unlock thousands of searchable keywords, boosting your SEO effortlessly and at minimal cost.
+        - link "Learn more" [ref=e116] [cursor=pointer]:
+          - /url: https://gotranscript.com/transcription-services
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - paragraph [ref=e122]: Transcribe more, pay less
+        - 'heading "Voice‑to‑text subscription: transcribe $35/month" [level=2] [ref=e123]'
+        - paragraph [ref=e124]: Get $35/month of voice‑to‑text with automatic transcription software - ideal for high‑volume audio to text.
+        - link "Upload audio/video & subscribe arrow icon arrow icon" [ref=e125] [cursor=pointer]:
+          - /url: https://gotranscript.com/upload/automated-transcriptions
+          - generic [ref=e126]: Upload audio/video & subscribe
+          - generic [ref=e127]:
+            - img "arrow icon" [ref=e128]
+            - img "arrow icon" [ref=e129]
+      - list [ref=e132]:
+        - listitem [ref=e133]:
+          - paragraph [ref=e134]: AI TRANSCRIPTION
+          - paragraph [ref=e135]: PAY AS YOU GO
+          - paragraph [ref=e136]: SUBSCRIPTION
+        - listitem [ref=e137]:
+          - paragraph [ref=e138]: Price per minute
+          - generic [ref=e139]: $0.20
+          - generic [ref=e140]: $0.02
+        - listitem [ref=e141]:
+          - paragraph [ref=e142]: Add human review when needed (upgrade option)
+          - img "chek icon" [ref=e144]
+          - img "chek icon" [ref=e146]
+        - listitem [ref=e147]:
+          - paragraph [ref=e148]: Built‑in voice‑to‑text editor
+          - img "chek icon" [ref=e150]
+          - img "chek icon" [ref=e152]
+        - listitem [ref=e153]:
+          - paragraph [ref=e154]: Transcript insights
+          - img "chek icon" [ref=e156]
+          - img "chek icon" [ref=e158]
+        - listitem [ref=e159]:
+          - paragraph [ref=e160]: Publish transcripts for SEO
+          - img "chek icon" [ref=e162]
+          - img "chek icon" [ref=e164]
+  - generic [ref=e168]:
+    - generic [ref=e170]:
+      - img "icon" [ref=e171]
+      - generic [ref=e172]: Are you looking for an efficient way to compare two texts? A text compare tool is a perfect solution for anyone needing an effective and reliable differentiation. It allows users to quickly and accurately identify similarities or differences between passages. Are you a writer, coder, editor, or teacher? If so, you'll find our text compare services extremely valuable. It saves time and effort by automating the comparison process and providing a clear overview of any changes that need to be made.
+    - generic [ref=e174]:
+      - img "icon" [ref=e175]
+      - generic [ref=e176]: GoTranscript's tool is useful for a variety of purposes, including plagiarism detection, code comparison, and document revision. Plagiarism is a serious issue in academic and professional writing. Using a text comparison tool can help ensure one's work is original and not copied from other sources. Another common use is document revision. When working on a collaborative document, it can be challenging to keep track of changes made by different authors.
+  - generic [ref=e180]:
+    - generic [ref=e181]:
+      - img "translate" [ref=e183]
+      - generic [ref=e184]:
+        - generic [ref=e185]: What Is Text Compare?
+        - generic [ref=e186]:
+          - text: If you're a student or work in the publishing industry, you know how crucial it is to avoid plagiarism. At times, coming up with the same ideas and words as someone else is unavoidable. Therefore, it's always a good idea to perform text comparisons on our written work.
+          - text: What if we told you that there's a simple way to compare texts for differences quickly? A tool that works online is best, considering the amount of time we spend on the internet today. However, with so many so-called websites touting text-to-text comparison, how do you know which one will operate optimally?
+    - generic [ref=e187]:
+      - img "translate" [ref=e189]
+      - generic [ref=e190]:
+        - generic [ref=e191]: Compare 2 Texts With GoTranscript's Free Tool
+        - generic [ref=e192]:
+          - text: Let's say you're working on two documents and would like to compare if the text is the same. Don't do things manually and waste your precious time! GoTranscript offers everyone a free tool that works beautifully.
+          - text: All you have to do is paste two sets of text, one on the left box and another on the right. After that, go ahead and click the Compare button. The tool will then mark the text differences and return a percentage of similarity. Texts that are identical will return 100%. You'll also see the number of changes as well as highlights indicating where these differences are throughout the two pieces. A red highlight shows removed words, while a green highlight implies added text.
+          - text: It's really that simple to compare two texts for differences. It's no wonder that this tool is gaining popularity among anyone who works with words. Try it out today!
+  - generic [ref=e195]:
+    - generic [ref=e196]:
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - paragraph [ref=e200]: Get In Touch
+          - link "Contact Us" [ref=e201] [cursor=pointer]:
+            - /url: https://gotranscript.com/contact-us
+        - generic [ref=e202]:
+          - link "+1 (831) 222-8398" [ref=e203] [cursor=pointer]:
+            - /url: tel:+18312228398
+          - link "Book a Meeting" [ref=e204] [cursor=pointer]:
+            - /url: https://gotranscript.com/request-quote?previous=https%3A%2F%2Fgotranscript.com%2Ftext-compare
+      - generic [ref=e205]:
+        - generic [ref=e206]: GoTranscript Inc.
+        - generic [ref=e207]: 16192 Coastal Highway, Lewes
+        - generic [ref=e208]: Delaware 19958
+        - generic [ref=e209]: United States
+        - generic [ref=e210]: 166 College Rd
+        - generic [ref=e211]: Harrow HA1 1BH
+        - generic [ref=e212]: United Kingdom
+      - link "Compliancy Seal" [ref=e214] [cursor=pointer]:
+        - /url: https://compliancy-group.com/compliance-monitoring-dashboard/
+        - img "Compliancy Seal" [ref=e215]
+      - generic [ref=e216]:
+        - link "Join us as a transcriber" [ref=e217] [cursor=pointer]:
+          - /url: https://gotranscript.com/transcription-jobs
+        - link "Join us as a translator" [ref=e218] [cursor=pointer]:
+          - /url: https://gotranscript.com/translation-jobs
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e221]: Services
+        - generic "Services" [ref=e222]:
+          - link "Transcription" [ref=e223] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcription-services
+          - link "Custom transcription" [ref=e224] [cursor=pointer]:
+            - /url: https://gotranscript.com/custom-transcription-audio-annotation
+          - link "Transcription proofreading" [ref=e225] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcription-proofreading-services
+          - link "AI transcription" [ref=e226] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcribe-voice-to-text
+          - link "Captioning" [ref=e227] [cursor=pointer]:
+            - /url: https://gotranscript.com/closed-captioning-services
+          - link "Translations" [ref=e228] [cursor=pointer]:
+            - /url: https://gotranscript.com/text-translation-services
+          - link "Subtitling" [ref=e229] [cursor=pointer]:
+            - /url: https://gotranscript.com/subtitling-services
+          - link "API" [ref=e230] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcription-api
+      - generic [ref=e231]:
+        - generic [ref=e232]: Orders & Pricing
+        - generic "Orders & Pricing" [ref=e233]:
+          - link "Pricing" [ref=e234] [cursor=pointer]:
+            - /url: https://gotranscript.com/cheap-transcription-rates
+          - link "Pricing calculator" [ref=e235] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcription-cost-estimate
+          - link "Detailed pricing (PDF)" [ref=e236] [cursor=pointer]:
+            - /url: https://docs.google.com/spreadsheets/d/14Iszzxm9yM2ZRxkY5k7eBp5ahuTKCtEqFuwpkYMJVJU/edit?gid=87722067#gid=87722067
+          - link "Billing terms (PDF)" [ref=e237] [cursor=pointer]:
+            - /url: /documents/billing.pdf?v=b52766d8332f39c6d3b49bda9443f39c
+          - link "Student discount" [ref=e238] [cursor=pointer]:
+            - /url: https://gotranscript.com/education#education
+          - link "Customer loyalty program" [ref=e239] [cursor=pointer]:
+            - /url: https://gotranscript.com/customer-loyalty-discount-program
+      - generic [ref=e240]:
+        - generic [ref=e241]: About
+        - generic "About" [ref=e242]:
+          - link "About us" [ref=e243] [cursor=pointer]:
+            - /url: https://gotranscript.com/about
+          - link "Our clients" [ref=e244] [cursor=pointer]:
+            - /url: https://gotranscript.com/case-studies
+          - link "Partnership" [ref=e245] [cursor=pointer]:
+            - /url: https://gotranscript.com/partnership
+          - link "Services presentation (PDF)" [ref=e246] [cursor=pointer]:
+            - /url: /documents/language-solutions-compressed.pdf?v=3a30166740b4cc32ff0e1a68da3a77b1
+          - link "Feedback" [ref=e247] [cursor=pointer]:
+            - /url: https://gotranscript.com/review
+          - link "Information security policy" [ref=e248] [cursor=pointer]:
+            - /url: https://drive.google.com/file/d/12RRw32HE9wvZ7E_lUFjo_I1sREy4XMYJ/view?usp=share_link
+          - link "FAQs" [ref=e249] [cursor=pointer]:
+            - /url: https://gotranscript.com/faq
+          - link "Careers" [ref=e250] [cursor=pointer]:
+            - /url: https://gotranscript.com/careers
+      - generic [ref=e251]:
+        - generic [ref=e252]: For Business
+        - generic "For Business" [ref=e253]:
+          - link "Education" [ref=e254] [cursor=pointer]:
+            - /url: https://gotranscript.com/education
+          - link "Legal" [ref=e255] [cursor=pointer]:
+            - /url: https://gotranscript.com/legal-transcriptions
+          - link "Medical" [ref=e256] [cursor=pointer]:
+            - /url: https://gotranscript.com/medical-transcriptions
+          - link "LSP" [ref=e257] [cursor=pointer]:
+            - /url: https://gotranscript.com/language-service-prov
+          - link "Law enforcement" [ref=e258] [cursor=pointer]:
+            - /url: https://gotranscript.com/law-enforcement-transcription-services
+          - link "News organisations" [ref=e259] [cursor=pointer]:
+            - /url: https://gotranscript.com/news-organizations
+          - link "Market research" [ref=e260] [cursor=pointer]:
+            - /url: https://gotranscript.com/market-research-transcript
+          - link "Government" [ref=e261] [cursor=pointer]:
+            - /url: https://gotranscript.com/government-transcriptions
+      - generic [ref=e262]:
+        - generic [ref=e263]: For Transcriptionists
+        - generic "For Transcriptionists" [ref=e264]:
+          - link "Apply to work" [ref=e265] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcription-jobs
+          - link "Affiliate" [ref=e266] [cursor=pointer]:
+            - /url: https://gotranscript.com/affiliate
+          - link "Transcription editor" [ref=e267] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcribing-software
+          - link "Caption editor" [ref=e268] [cursor=pointer]:
+            - /url: https://gotranscript.com/captions-editor
+      - generic [ref=e269]:
+        - generic [ref=e270]: Free Tools
+        - generic "Free Tools" [ref=e271]:
+          - link "Mobile app" [ref=e272] [cursor=pointer]:
+            - /url: https://gotranscript.com/transcribe-iphone-voice-memos
+          - link "Online voice recorder" [ref=e273] [cursor=pointer]:
+            - /url: https://gotranscript.com/free-online-voice-recorder
+          - link "Subtitle converter" [ref=e274] [cursor=pointer]:
+            - /url: https://gotranscript.com/subtitle-converter
+          - link "US-to-UK converter" [ref=e275] [cursor=pointer]:
+            - /url: https://gotranscript.com/translation-services/american-to-british
+          - link "Word counter" [ref=e276] [cursor=pointer]:
+            - /url: https://gotranscript.com/word-count
+          - link "Text compare" [ref=e277] [cursor=pointer]:
+            - /url: https://gotranscript.com/text-compare
+          - link "More tools" [ref=e278] [cursor=pointer]:
+            - /url: https://gotranscript.com/tools
+    - generic [ref=e282]:
+      - generic [ref=e283]:
+        - link "About us" [ref=e285] [cursor=pointer]:
+          - /url: https://gotranscript.com/about
+        - link "Blog" [ref=e287] [cursor=pointer]:
+          - /url: https://gotranscript.com/en/blog
+        - link "Privacy" [ref=e289] [cursor=pointer]:
+          - /url: https://gotranscript.com/privacy
+        - link "Trust & Security" [ref=e291] [cursor=pointer]:
+          - /url: https://gotranscript.com/trust-center
+        - link "Help center" [ref=e293] [cursor=pointer]:
+          - /url: https://help.gotranscript.com/
+        - link "Downloads & Resources" [ref=e295] [cursor=pointer]:
+          - /url: https://gotranscript.com/download-and-resources
+      - generic [ref=e296]:
+        - link "facebook logo" [ref=e298] [cursor=pointer]:
+          - /url: https://www.facebook.com/speechtotextservice
+          - img "facebook logo" [ref=e299]
+        - link "linkedin logo" [ref=e301] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/gotranscript-transcription-services
+          - img "linkedin logo" [ref=e302]
+        - link "twitter logo" [ref=e304] [cursor=pointer]:
+          - /url: https://twitter.com/gotranscriptcom
+          - img "twitter logo" [ref=e305]
+  - iframe [ref=e306]:
+    - button "Help" [ref=f4e4] [cursor=pointer]:
+      - img [ref=f4e6]
+      - generic [ref=f4e13]: Help
+```

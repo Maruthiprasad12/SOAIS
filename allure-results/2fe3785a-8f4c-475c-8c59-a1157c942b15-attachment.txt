@@ -1,0 +1,6 @@
+Mouse Hover performed on button
+Right click performed
+Drag and Drop performed
+Drop validated
+Double Click performed
+Double click result validated

@@ -1,0 +1,3 @@
+Total Radio Buttons: 2
+Selected: male
+Selected: female

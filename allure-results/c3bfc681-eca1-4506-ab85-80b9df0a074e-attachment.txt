@@ -1,0 +1,5 @@
+beforeAll: Setup before all tests
+beforeEach: Navigate to site
+Running Test 1
+afterEach: Test completed
+afterAll: Cleanup after all tests

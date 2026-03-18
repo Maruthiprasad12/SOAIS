@@ -1,0 +1,113 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - text: 
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e6]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "" [ref=e11] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/vinothrk/
+              - generic [ref=e12]: 
+          - listitem [ref=e13]:
+            - link "" [ref=e14] [cursor=pointer]:
+              - /url: https://wa.me/447459919437
+              - generic [ref=e15]: 
+          - listitem [ref=e16]:
+            - link "" [ref=e17] [cursor=pointer]:
+              - /url: https://www.youtube.com/@vinothqaacademy
+              - generic [ref=e18]: 
+          - listitem [ref=e19]:
+            - link "" [ref=e20] [cursor=pointer]:
+              - /url: https://www.instagram.com/vtechsolutionsuk/
+              - generic [ref=e21]: 
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - generic [ref=e25]: 
+            - text: "+44-7459919437 (UK- WhatsApp & Direct Call) | +91-6383544892 (India - WhatsApp Only) | Email Id : vinothtechsolutions@gmail.com"
+      - generic [ref=e28]:
+        - link "Vinoth Tech Solutions" [ref=e31] [cursor=pointer]:
+          - /url: https://vinothqaacademy.com/
+          - img "Vinoth Tech Solutions" [ref=e32]
+        - text:    
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - link "Home" [ref=e38] [cursor=pointer]:
+              - /url: https://vinothqaacademy.com/
+          - listitem [ref=e39]:
+            - link "Tutorials" [ref=e40] [cursor=pointer]:
+              - /url: https://vinothqaacademy.com/tutorials/
+          - listitem [ref=e41]:
+            - generic [ref=e42]: Free Complete QA Video Courses
+          - listitem [ref=e43]:
+            - generic [ref=e44]: About Me
+          - listitem [ref=e45]:
+            - generic [ref=e46]: Demo Sites
+    - main [ref=e56]:
+      - generic [ref=e57]:
+        - heading "Mouse Events Demo" [level=1] [ref=e58]
+        - generic [ref=e59]:
+          - heading "Double Click" [level=2] [ref=e60]
+          - button "Double Click Me" [ref=e61] [cursor=pointer]
+          - generic [ref=e62]:
+            - text: "Status:"
+            - generic [ref=e63]: Waiting...
+        - generic [ref=e64]:
+          - heading "Right Click" [level=2] [ref=e65]
+          - button "Right Click Me" [ref=e66] [cursor=pointer]
+          - generic [ref=e67]:
+            - text: "Status:"
+            - generic [ref=e68]: Waiting...
+        - generic [ref=e69]:
+          - heading "Drag and Drop" [level=2] [ref=e70]
+          - generic [ref=e71]:
+            - generic [ref=e72]: Drag Me
+            - generic [ref=e73]: Drop Here
+          - generic [ref=e74]:
+            - text: "Status:"
+            - generic [ref=e75]: Waiting...
+          - button "Reset" [ref=e76] [cursor=pointer]
+        - generic [ref=e77]:
+          - heading "Tool Tip Text" [level=2] [ref=e78]
+          - generic "This is tooltip text" [ref=e79]: Hover On Me
+          - generic [ref=e80]:
+            - text: "Status:"
+            - generic [ref=e81]: Hover to see tooltip
+        - generic [ref=e82]:
+          - heading "Slider" [level=2] [ref=e83]
+          - generic [ref=e84]:
+            - text: "Value: £1000"
+            - generic [ref=e85]: Min 250 - Max 3000
+          - slider [ref=e89] [cursor=pointer]
+          - generic [ref=e90]:
+            - text: "Status:"
+            - generic [ref=e91]:
+              - text: "Value: £1000"
+              - img "✅" [ref=e92]
+  - contentinfo [ref=e93]:
+    - generic [ref=e97]:
+      - generic [ref=e100]: "© 2025 V-Tech Solutions Ltd (UK), Reg. No: 16489105"
+      - generic [ref=e102]:
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - link "" [ref=e108] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/vinothrk/
+              - generic [ref=e109]: 
+          - listitem [ref=e110]:
+            - link "" [ref=e111] [cursor=pointer]:
+              - /url: https://wa.me/447459919437
+              - generic [ref=e112]: 
+          - listitem [ref=e113]:
+            - link "" [ref=e114] [cursor=pointer]:
+              - /url: https://www.youtube.com/@vinothqaacademy
+              - generic [ref=e115]: 
+          - listitem [ref=e116]:
+            - link "" [ref=e117] [cursor=pointer]:
+              - /url: https://www.instagram.com/vtechsolutionsuk/
+              - generic [ref=e118]: 
+        - generic:
+          - list
+  - generic [ref=e119]: desktop
+```
