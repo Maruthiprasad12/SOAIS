@@ -1,5 +1,5 @@
 import { expect } from "@playwright/test";
-import { LoginPage } from "../pages/login";
+import { LoginPage } from "../locators/login";
 
 export class LoginHelper {
   private loginPage: LoginPage;
