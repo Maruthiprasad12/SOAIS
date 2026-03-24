@@ -1,7 +1,7 @@
 import {test} from '@playwright/test'
 import Data from "../testData/OrangeHRM_Creds.json"
-import {LoginHelper} from "../helperFunctions/loginHelper"
-import { LoginPage } from "../pages/login"
+import { LoginHelper } from "../pages/helperFunctions/loginHelper"
+import { LoginPage } from "../pages/locators/login"
 
 test('Log in Orange HRM using valid credentials',async({page})=>{
         const loginPage = new LoginPage(page)
