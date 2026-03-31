@@ -11,3 +11,14 @@ test('file download test', async ({ page }) => {
   const path = await download.path();
   console.log(path);
 });
+
+
+
+/*for(const file of files) {
+  const [download] = await Promise.all([
+    page.waitForEvent('download'),
+    page.click(`a[download="${file}"]`)
+  ]);
+  const path = await download.path();
+  console.log(path);
+}*/
