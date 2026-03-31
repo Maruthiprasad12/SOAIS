@@ -31,10 +31,10 @@ test('Screenshot Demo (Beginner)', async ({ page }) => {
     // Click login
     await page.click('#login-button');
 
-    // 📸 After login
+    // After login
     await page.screenshot({ path: 'screenshots/after.png' });
 
-    // ✅ Check files created
+    // Check files created
     expect(fs.existsSync('screenshots/full.png')).toBeTruthy();
     expect(fs.existsSync('screenshots/logo.png')).toBeTruthy();
     const before = fs.readFileSync('screenshots/before.png');
