@@ -1,0 +1,10 @@
+import {test,expect} from '@playwright/test'
+test.describe('verifying Login functionality',()=>{
+test('verifying login with valid credentials', async({page})=>{
+    await page.goto('/')
+    await page.fill('#user-name','standard_user')
+    await page.fill('#password','secret_sauce')
+    await page.click('#login-button')
+    await expect(page.getByText('Swag Labs')).toBeVisible()
+})
+})

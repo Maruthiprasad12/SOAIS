@@ -1,15 +1,14 @@
-/*import { test, expect } from "@playwright/test"
-import data from "../testData/swaglabsCreds.json"
-import * as XLSX from 'xlsx';
-import path from 'path'
+// import { test, expect } from "@playwright/test"
+// import * as XLSX from 'xlsx';
+// import * as path from 'path'
 
-const userDataFile = path.join(__dirname,'testData/Book (1).xlsx')
-interface UserData{
-  username : string
-  password : string
-}
-
-  const users:string[] = [
+// const userDataFile = path.join(__dirname,'testData/Book (1).xlsx')
+// interface UserData {
+//   username: string
+//   password: string
+// }
+import {test,expect} from '@playwright/test'
+const users: string[] = [
   'standard_user',
   'locked_out_user',
   'problem_user',
@@ -19,19 +18,19 @@ interface UserData{
 ];
 const password : string = 'secret_sauce'
 test.describe("verify swaglabs functionalities", async () => {
-     const workbook = XLSX.readFile(userDataFile)
-      const worksheet = workbook.Sheets["Sheet1"]
-      const xlsToJson = XLSX.utils.sheet_to_json<UserData>(worksheet)
+    //  const workbook = XLSX.readFile(userDataFile)
+    //   const worksheet = workbook.Sheets["Sheet1"]
+    //   const xlsToJson = XLSX.utils.sheet_to_json<UserData>(worksheet)
 
-      console.log(xlsToJson)
+      // console.log(xlsToJson)
 
   test("Verify swag labs with valid credentials", async ({ page }) => {
    
     
 
     await page.goto('/')
-    await page.locator('#user-name').fill(xlsToJson[0].username)
-    await page.locator("#password").fill(xlsToJson[0].password)
+    await page.locator('#user-name').fill(users[1])
+    await page.locator("#password").fill(password)
     await page.getByRole('button', { name: 'Login' }).click({timeout:5000});
     // await page.locator("#login-button").click()
     await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html')
@@ -42,8 +41,8 @@ test.describe("verify swaglabs functionalities", async () => {
 
   test("Verify swag labs with locked user", async ({ page }) => {
     await page.goto('/')
-    await page.fill('#user-name',xlsToJson[1].username)
-    await page.locator("#password").fill(xlsToJson[1].password)
+    await page.fill('#user-name',users[1])
+    await page.locator("#password").fill(password)
     await page.locator("#login-button").click()
     await expect(page.getByText('Epic sadface: Sorry, this user has been locked out.')).toBeVisible()
   })
@@ -56,4 +55,4 @@ test.describe("verify swaglabs functionalities", async () => {
     // await page.locator("#login-button").click()
    await expect(page.getByText('Epic sadface: Username and password do not match any user in this service')).toBeVisible()
   })
-})*/
+})
