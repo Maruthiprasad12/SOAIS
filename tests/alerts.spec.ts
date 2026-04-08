@@ -25,6 +25,16 @@ test('Handle confirmation-Alerts', async ({ page }) => {
 
 })
 
+test('Handle confirmation-Cancel Alerts', async ({ page }) => {
+  page.once('dialog', async dialog => {
+    console.log(dialog.message());
+    await dialog.dismiss(); // 
+  });
+
+  await page.locator('#confirmBtn').click();
+  await expect(page.getByText('You pressed Cancel!')).toBeVisible()
+  await expect(page.locator('p[id="demo"]')).toHaveText('You pressed Cancel!')
+})
 test('Handle Prompt-Alerts', async ({ page }) => {
   page.once('dialog', async dialog => {
     console.log(dialog.message());
