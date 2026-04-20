@@ -1,6 +1,9 @@
-const {chromium } = require('playwright');
-const fs = require('fs');
-const {test} = require('@playwright/test')
+// const {chromium } = require('playwright');
+// const fs = require('fs');
+
+import { chromium  } from "playwright";
+import * as fs from "fs";
+import { test } from "@playwright/test";
 
 test("PDF Genaration",async () => {
   const browser = await chromium.launch();

@@ -26,6 +26,7 @@ test('Checkbox Handling', async ({ page }) => {
   await expect(checkboxes.nth(1)).not.toBeChecked();
 
   console.log('One checkbox unchecked');
+  await page.close()
 });
 
 
@@ -43,4 +44,5 @@ test('Select all checkboxes using loop', async ({ page }) => {
   }
 
   console.log('All checkboxes selected:', count);
+  await page.close()
 });

@@ -27,5 +27,7 @@ test('Dropdown Handling', async ({ page }) => {
 const options = await dropdown.locator('option').allTextContents();
 
 console.log('All options:', options);
+await page.waitForTimeout(5000);
+await page.close()
 
 });
