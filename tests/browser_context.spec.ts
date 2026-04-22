@@ -1,4 +1,4 @@
-import { test, expect, chromium,firefox,webkit } from '@playwright/test';   
+import { test, expect, chromium,firefox,webkit } from '@playwright/test';    
 test('Login with standard and locked users in separate contexts', async () => {
   // const browser: Browser = await chromium.launch();
   const browser = [chromium,firefox,webkit]
