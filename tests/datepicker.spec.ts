@@ -14,4 +14,5 @@ test('Reusable Date Picker Test', async ({ page }) => {
     console.log(`Selecting date: ${data.day}-${data.month}-${data.year}`);
     await selectDate(page, data.day, data.month, data.year);
   }
+  await page.close()
 });

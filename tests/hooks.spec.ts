@@ -32,8 +32,9 @@ test.describe('Hooks Demo - Version 2', () => {
   });
 
   //  AFTER ALL 
-  test.afterAll(async () => {
+  test.afterAll(async ({page}) => {
     console.log('afterAll: Cleanup after all tests');
+    page.close()
   });
 
 });

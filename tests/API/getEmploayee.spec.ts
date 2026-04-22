@@ -1,7 +1,5 @@
 import { test, expect} from "@playwright/test"
 
-
-
  const cookies = 'orangehrm=j0nlu0da90vhsjf0q7e7lcjg8k'
 test('Get employee', async ({ request }) => {
     const employee = await request.get('https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/admin/employment-statuses?limit=0', {

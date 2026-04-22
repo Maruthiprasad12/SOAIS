@@ -1,11 +1,14 @@
-import { test, expect, chromium, Browser } from '@playwright/test';
-
+import { test, expect, chromium,firefox,webkit } from '@playwright/test';   
 test('Login with standard and locked users in separate contexts', async () => {
-  const browser: Browser = await chromium.launch();
+  // const browser: Browser = await chromium.launch();
+  const browser = [chromium,firefox,webkit]
+for (const browserType of browser){
+  const browser = await browserType.launch()
+   const context1 = await browser.newContext();
 
   // STANDARD USER
-  const context1 = await browser.newContext();
-  const page1 = await context1.newPage();
+ 
+  const page1 = await  context1.newPage();
 
   await page1.goto('/');
   await page1.fill('#user-name', 'standard_user');
@@ -33,4 +36,5 @@ test('Login with standard and locked users in separate contexts', async () => {
   console.log('Locked user login failed as expected');
 
   await browser.close();
+}
 });
