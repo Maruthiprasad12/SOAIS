@@ -1,6 +1,11 @@
 import { test, expect } from '@playwright/test';
-
+test.describe("mouse events ",async()=>{
+test.afterAll(async ({page}) => {
+    console.log('afterAll: Cleanup after all tests');
+    page.close()
+  });
 test('Mouse Events Automation', async ({ page }) => {
+ 
   await page.goto('https://vinothqaacademy.com/mouse-event/');
 
 //   Mouse Hover
@@ -32,4 +37,7 @@ test('Mouse Events Automation', async ({ page }) => {
   // On this page, text changes to "Double Clicked"
   await expect(dblClickBtn).toHaveText('Double Click Me');
   console.log('Double click result validated');
+  
 });
+
+})
